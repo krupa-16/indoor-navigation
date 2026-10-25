@@ -79,3 +79,33 @@ button:disabled {
   color: #dc2626;
   font-weight: bold;
 }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+.actions button {
+  flex: 1;
+  min-width: 150px;
+}
+.hint {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 12px;
+}
+.match-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.match-preview {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
